@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain</title>
+    <script src="./scripts/mountain.js"></script>
+    <link rel="stylesheet" href="styles/mountain.css">
+</head>
+<body>
+    <header>
+        <h1>Looking huh</h1> <br>
+        <nav id="nav">
+            <a href="index.html">Home</a>
+            <a href="mountain.html">Mountain</a>
+            <a href="park.html">Parks</a>
+        </nav>
+    </header>
+    <main>
+
+        <label>Please Select a Mountain</label>
+        <select id="mountSel"></select>
+
+        <br><br>
+        <button id="reset">Clear Form</button>
+    </main>
+
+    <div id="mountainDetails" style="display: none;">
+        <h3 id="mountainName">?</h3>
+        <img id="mountainImage" src="default.png" alt="Mountain Image"
+        style="width: 300px; height: auto; border: 2rem black solid;">
+        <p id="mountainLocation"></p>
+    </div>
+
+    
+</body>
+</html>
