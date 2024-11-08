@@ -1,6 +1,6 @@
 .main{
     background-image: url(../images/pexels-robbymccullough-1867601\ \(1\).jpg);
-    /* background-size: cover; */
+    background-size: cover;
 }
 
 /* Styles for the mountain details container */
@@ -41,7 +41,7 @@
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: whitesmoke;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     transition: box-shadow 0.3s;
@@ -50,4 +50,18 @@
  
 .mountain-box:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.navlist a{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 800;
+    font-family:cursive;
+    color: white;
+    margin: 0 25px;
+    transition: all .7s ease;
+}
+
+.navlist a:hover{
+    color: green;
 }
