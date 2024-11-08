@@ -1,0 +1,53 @@
+/* Enhanced table styling */
+table {
+    width: 90%; /* Slightly increase the width */
+    margin: 2rem auto; /* Center the table */
+    border: 2px solid #333; /* Border around the table */
+    border-radius: 10px; /* Rounded corners */
+}
+ 
+/* Header row */
+table thead th {
+    font-size: 1.2rem; /* Increase header font size */
+}
+ 
+/* Table cells */
+table tbody td {
+    font-size: 1rem; /* Consistent font size */
+    border: 1px solid #ddd; /* Light border for cells */
+}
+ 
+h1{
+    color: black;
+    background-color: #fff;
+    width:fit-content;
+    display: block;
+    margin: auto;
+    padding: .5rem 1rem;
+    border-radius: 4rem;
+    opacity: 75%;
+}
+ 
+h3{
+    color: black;
+}
+ 
+label {
+    color: black;
+}
+ 
+#mountainDetails {
+    background-color: white;
+}
+ 
+p{
+    color: black;
+}
+ 
+#tbleHeader{
+    background-color: white;
+    padding: 1rem;
+    margin: auto;
+    width: 50%;
+    border-radius: 5rem;
+}
